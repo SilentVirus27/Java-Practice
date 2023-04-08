@@ -13,7 +13,7 @@ class TwoDArrayDemo {
                 }
             }
         }
-        System.out.println("Array element 3x3: ");
+        System.out.println("Array element 3x3x3: ");
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < a[i].length; j++) {
                 for (int k = 0; k < a[i][j].length; k++) {
@@ -21,7 +21,7 @@ class TwoDArrayDemo {
                 }
                 System.out.println();
             }
-            System.out.println("--------");
+            System.out.println("-----");
         }
     }
 }
